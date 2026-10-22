@@ -204,6 +204,18 @@ namespace linq2.assignment
 
             //}
             #endregion
+            #region question20
+            //20.Concatenate the first 3 product names with the first 3
+            //customer company names into a single sequence.
+            //var reuslt1 = Source.ProductList.Take(3).Select(p=>p.ProductName);
+            //var reuslt2 = Source.CustomerList.Take(3).Select(c=>c.CustomerName);
+            //var result3= reuslt1.Concat(reuslt2);
+            //foreach (var item in result3)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
         }
     }
 }
