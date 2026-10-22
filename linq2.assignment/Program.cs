@@ -1,5 +1,6 @@
 ﻿using LINQ.DataSources;
 using LINQ.Models;
+using System.Collections;
 
 namespace linq2.assignment
 {
@@ -33,8 +34,8 @@ namespace linq2.assignment
 
             #endregion
             #region question3
-         //3.Take products from the list as long as Their UnitPrice is less than
-          //$25(list is ordered by price).
+            //3.Take products from the list as long as Their UnitPrice is less than
+            //$25(list is ordered by price).
 
             //var  reusalt=Source.ProductList.OrderBy(p=>p.UnitPrice).TakeWhile(p=>p.UnitPrice<25);
             //foreach (var product in reusalt)
@@ -43,6 +44,11 @@ namespace linq2.assignment
             //}
 
 
+            #endregion
+            #region question4
+            ////4.Check if ALL products in the "Seafood" category are in stock
+            //var reuslt =Source.ProductList.Where(p=>p.Category=="Seafood").All(p=>p.UnitsInStock>0);
+            //Console.WriteLine(reuslt);
             #endregion
         }
     }
