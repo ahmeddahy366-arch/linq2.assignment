@@ -168,12 +168,17 @@ namespace linq2.assignment
             //}
             #endregion
             #region question15
-//            15.Build a Dictionary<int, Product> keyed by ProductID. Then
-//retrieve and print the product with ID = 18.
-//var result = Source.ProductList.ToDictionary(p => p.ProductID);
-//            var product = result[18];
-//            Console.WriteLine(product);
+            //            15.Build a Dictionary<int, Product> keyed by ProductID. Then
+            //retrieve and print the product with ID = 18.
+            //var result = Source.ProductList.ToDictionary(p => p.ProductID);
+            //            var product = result[18];
+            //            Console.WriteLine(product);
 
+            #endregion
+            #region question16
+            //16.Get the first product whose price is greater than $50.
+            //var result = Source.ProductList.FirstOrDefault(p=>p.UnitPrice>50);
+            //Console.WriteLine(result);
             #endregion
         }
     }
