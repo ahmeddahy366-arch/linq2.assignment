@@ -2,6 +2,7 @@
 using LINQ.Models;
 using System.Collections;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Diagnostics.Metrics;
 using System.Runtime.ConstrainedExecution;
 using System.Security.Cryptography;
@@ -126,7 +127,14 @@ namespace linq2.assignment
             ////10.Calculate the total number of units in stock across all products
             //var reuslt = Source.ProductList.Sum(p => p.UnitsInStock);
             //    Console.WriteLine(reuslt);
-            
+
+            #endregion
+            #region question11
+           // //11.Find the CHEAPEST and MOST EXPENSIVE product prices
+           // var reuslt = Source.ProductList.Min(p => p.UnitPrice);
+           //var reuslt2 = Source.ProductList.Max(p => p.UnitPrice);
+           // Console.WriteLine(reuslt);
+           // Console.WriteLine(reuslt2);
             #endregion
         }
     }
