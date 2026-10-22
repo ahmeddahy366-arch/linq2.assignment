@@ -195,6 +195,15 @@ namespace linq2.assignment
             //    Console.WriteLine(item);
             //}
             #endregion
+            #region question19
+            //19.Generate even numbers between 1 and 30.
+            //var reusalt = Enumerable.Range(1, 30).Where(n=>n%2==0);
+            //foreach (var item in reusalt)
+            //{
+            //    Console.WriteLine(item);
+
+            //}
+            #endregion
         }
     }
 }
