@@ -23,6 +23,15 @@ namespace linq2.assignment
             //}
             #endregion
 
+            #region question2
+            ////2.show page 2 of products, with page size = 5
+            //var resualt =Source.ProductList.Skip(5).Take(5);
+            //foreach (var product in resualt)
+            //{
+            //    Console.WriteLine(product);
+            //}
+
+            #endregion
         }
     }
 }
