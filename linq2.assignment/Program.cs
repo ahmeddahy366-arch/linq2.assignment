@@ -180,6 +180,21 @@ namespace linq2.assignment
             //var result = Source.ProductList.FirstOrDefault(p=>p.UnitPrice>50);
             //Console.WriteLine(result);
             #endregion
+            #region question17
+            //            17.Try to get the first product with a price > ...it returns null
+            //instead of throwing.
+
+            //var result=Source.ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+            //Console.WriteLine(result);
+            #endregion
+            #region question18
+            ////18.Generate a multiplication table row for 7
+            //var reuslt=Enumerable.Range(1,12).Select(i=>new { Number = i, Product = 7 * i });
+            //foreach (var item in reuslt)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
         }
     }
 }
