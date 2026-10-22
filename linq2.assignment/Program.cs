@@ -1,6 +1,7 @@
 ﻿using LINQ.DataSources;
 using LINQ.Models;
 using System.Collections;
+using System.ComponentModel;
 
 namespace linq2.assignment
 {
@@ -49,6 +50,13 @@ namespace linq2.assignment
             ////4.Check if ALL products in the "Seafood" category are in stock
             //var reuslt =Source.ProductList.Where(p=>p.Category=="Seafood").All(p=>p.UnitsInStock>0);
             //Console.WriteLine(reuslt);
+            #endregion
+            #region question5
+//            5.Check if the ID list contains 9
+            //   int[] ids = { 3, 9, 13, 18 };
+            //var reuslt= ids.Contains(9);
+            //Console.WriteLine(reuslt);
+
             #endregion
         }
     }
