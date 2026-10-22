@@ -2,7 +2,9 @@
 using LINQ.Models;
 using System.Collections;
 using System.ComponentModel;
+using System.Diagnostics.Metrics;
 using System.Runtime.ConstrainedExecution;
+using System.Security.Cryptography;
 
 namespace linq2.assignment
 {
@@ -100,6 +102,24 @@ namespace linq2.assignment
             //        Console.WriteLine(product);
             //    }
             //}   
+            #endregion
+            #region question9
+
+            //            9.Using QUERY SYNTAX, group customers by Country, and for each
+            //group select { Country, Count, TotalOrderValue }.
+            //var reuslt = from p in Source.CustomerList
+            //             group p by p.Country into g
+            //             select new
+            //             {
+            //                 country = g.Key,
+            //                 count = g.Count(),
+            //                 TotalOrderValue = g.SelectMany(c=>c.Orders).Sum(h=>h.Total)
+            //             };
+            //foreach (var item in reuslt)
+            //{
+            //    Console.WriteLine($"Country: {item.country} | Customers Count: {item.count} | Total Orders Value: {item.TotalOrderValue}");
+            //}
+
             #endregion
         }
     }
