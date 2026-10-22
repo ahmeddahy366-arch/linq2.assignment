@@ -76,7 +76,7 @@ namespace linq2.assignment
             //            7.Group products by Category and project only product names per
             //group
             //var result = Source.ProductList.GroupBy(p => p.Category);
-                                           
+
             //foreach (var group in result)
             //{
             //    Console.WriteLine(group.Key);
@@ -87,7 +87,20 @@ namespace linq2.assignment
             //}
 
 
-                #endregion
+            #endregion
+            #region question8
+            ////8.Find all categories that have MORE THAN 3 products
+            //var result = Source.ProductList.GroupBy(p => p.Category)
+            //    .Where(g => g.Count() > 3);
+            //foreach (var group in result)
+            //{
+            //    Console.WriteLine($"Category: {group.Key}, Count: {group.Count()}");
+            //    foreach (var product in group)
+            //    {
+            //        Console.WriteLine(product);
+            //    }
+            //}   
+            #endregion
         }
     }
 }
