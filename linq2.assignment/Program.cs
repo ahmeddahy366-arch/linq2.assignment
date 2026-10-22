@@ -32,6 +32,18 @@ namespace linq2.assignment
             //}
 
             #endregion
+            #region question3
+         //3.Take products from the list as long as Their UnitPrice is less than
+          //$25(list is ordered by price).
+
+            //var  reusalt=Source.ProductList.OrderBy(p=>p.UnitPrice).TakeWhile(p=>p.UnitPrice<25);
+            //foreach (var product in reusalt)
+            //{
+            //    Console.WriteLine(product);
+            //}
+
+
+            #endregion
         }
     }
 }
