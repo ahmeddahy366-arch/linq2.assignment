@@ -2,6 +2,7 @@
 using LINQ.Models;
 using System.Collections;
 using System.ComponentModel;
+using System.Runtime.ConstrainedExecution;
 
 namespace linq2.assignment
 {
@@ -71,6 +72,22 @@ namespace linq2.assignment
             //    }
             //}
             #endregion
+            #region question7
+            //            7.Group products by Category and project only product names per
+            //group
+            //var result = Source.ProductList.GroupBy(p => p.Category);
+                                           
+            //foreach (var group in result)
+            //{
+            //    Console.WriteLine(group.Key);
+            //    foreach (var product in group)
+            //    {
+            //        Console.WriteLine(product.ProductName);
+            //    }
+            //}
+
+
+                #endregion
         }
     }
 }
