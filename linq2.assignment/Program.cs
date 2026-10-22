@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Diagnostics.Metrics;
 using System.Runtime.ConstrainedExecution;
 using System.Security.Cryptography;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace linq2.assignment
 {
@@ -120,6 +121,12 @@ namespace linq2.assignment
             //    Console.WriteLine($"Country: {item.country} | Customers Count: {item.count} | Total Orders Value: {item.TotalOrderValue}");
             //}
 
+            #endregion
+            #region question10
+            ////10.Calculate the total number of units in stock across all products
+            //var reuslt = Source.ProductList.Sum(p => p.UnitsInStock);
+            //    Console.WriteLine(reuslt);
+            
             #endregion
         }
     }
