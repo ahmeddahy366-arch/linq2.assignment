@@ -156,6 +156,17 @@ namespace linq2.assignment
             //}
 
             #endregion
+            #region question14
+            //14. Find countries that appear in list1 but NOT in list2
+            //(case -insensitive).
+                //string[] list1 = { "Germany", "France", "UK", "Spain" };
+            //    string[] list2 = { "france", "SPAIN", "Italy" };
+            //var result = list1.Except(list2, StringComparer.OrdinalIgnoreCase);
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
         }
     }
 }
