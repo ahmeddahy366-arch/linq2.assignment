@@ -52,11 +52,24 @@ namespace linq2.assignment
             //Console.WriteLine(reuslt);
             #endregion
             #region question5
-//            5.Check if the ID list contains 9
+            //            5.Check if the ID list contains 9
             //   int[] ids = { 3, 9, 13, 18 };
             //var reuslt= ids.Contains(9);
             //Console.WriteLine(reuslt);
 
+            #endregion
+            #region question6
+            ////            6.Group all products by Category and print each group with its
+            ////product count.
+            //var reuslt = Source.ProductList.GroupBy(p => p.Category).Where(g => g.Count() > 0);
+            //foreach (var group in reuslt)
+            //{
+            //    Console.WriteLine($"Category: {group.Key}, Count: {group.Count()}");
+            //    foreach (var product in group)
+            //    {
+            //        Console.WriteLine(product);
+            //    }
+            //}
             #endregion
         }
     }
