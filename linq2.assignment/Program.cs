@@ -130,11 +130,19 @@ namespace linq2.assignment
 
             #endregion
             #region question11
-           // //11.Find the CHEAPEST and MOST EXPENSIVE product prices
-           // var reuslt = Source.ProductList.Min(p => p.UnitPrice);
-           //var reuslt2 = Source.ProductList.Max(p => p.UnitPrice);
-           // Console.WriteLine(reuslt);
-           // Console.WriteLine(reuslt2);
+            // //11.Find the CHEAPEST and MOST EXPENSIVE product prices
+            // var reuslt = Source.ProductList.Min(p => p.UnitPrice);
+            //var reuslt2 = Source.ProductList.Max(p => p.UnitPrice);
+            // Console.WriteLine(reuslt);
+            // Console.WriteLine(reuslt2);
+            #endregion
+            #region question12
+            //12.Get a distinct list of all product categories
+            //var reuslt = Source.ProductList.Select(p => p.Category).Distinct();
+            //foreach (var item in reuslt)
+            //{
+            //    Console.WriteLine(item);
+            //}
             #endregion
         }
     }
